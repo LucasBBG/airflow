@@ -3,6 +3,5 @@ files/
 logs/
 
 airflow.db
-spark/scripts/testando.py
-spark/scripts/spark_to_psql.py
-
+spark/scritps/testando.py
+spark/scritps/spark_to_psql.py
