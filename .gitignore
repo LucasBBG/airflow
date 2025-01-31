@@ -1,0 +1,8 @@
+.airflow/
+files/
+logs/
+
+airflow.db
+spark/scripts/testando.py
+spark/scripts/spark_to_psql.py
+
