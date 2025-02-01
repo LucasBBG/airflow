@@ -41,7 +41,7 @@ if __name__ == '__main__':
             .option("user", conn.login) \
             .option("password", conn.password) \
             .option("driver", "org.postgresql.Driver") \
-            .mode("overwrite") \
+            .mode("append") \
             .save()
 
     spark.stop()
