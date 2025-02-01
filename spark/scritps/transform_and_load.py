@@ -38,8 +38,8 @@ if __name__ == '__main__':
         df_temp_table.show()
 
         # Pegando as credenciais do banco de dados
-        jdbc_hook = JdbcHook(jdbc_conn_id='spark-jdbc')
-        conn = jdbc_hook.get_connection('spark-jdbc')
+        jdbc_hook = JdbcHook(jdbc_conn_id='postgres_spark_jdbc')
+        conn = jdbc_hook.get_connection('postgres_spark_jdbc')
 
         # Inserindo os dados na tabela "moedas" do PostgreSQL
         df.write \

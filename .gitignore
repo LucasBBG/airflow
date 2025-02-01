@@ -1,7 +1,9 @@
 .airflow/
 files/
 logs/
+dags/
 
 airflow.db
+airflow-webserver.pid
 spark/scritps/testando.py
 spark/scritps/spark_to_psql.py
